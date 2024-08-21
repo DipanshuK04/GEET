@@ -4,7 +4,11 @@
 
 GEET is a meticulously crafted musical website, built with a deep passion for both music and technology. Leveraging the simplicity and power of HTML, CSS, and JavaScript, GEET offers users an immersive experience through a sleek and intuitive interface.
 
-## Videos
+## Images
+![GEET INTERFACE](Images/GEET_1.jpg)
+![GIF](Images/GEET_VID_Clip_GIF.gif)
+## Video Preview
+[Watch the Interface Video](Images/GEET_VID_Clip.mp4)
 
 ## Usage
 
