@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    background-color:#201D20;
+    padding: 0;
+    color: whitesmoke;
+    border: 2.5px solid #313131;
+    font-size: 22px;
+    border-radius: 3px;
+}
+
+.no-border{
+    border: none;
+}
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+
+.cross{
+    margin-left: 385px;
+    background-color: #313131;
+    display: none;
+}
+.home img{
+    margin-left: 75px;
+    margin-top: 20px;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: none;
+    animation: spin 1s ease-in-out 0s infinite  normal;
+}
+
+@keyframes spin {
+    from{
+        rotate: z 0deg;
+    }to{
+        rotate: z 360deg;
+    }
+}
+
+.home h1{
+    margin-left: 110px;
+    border: none;
+}
+
+.opt-home{
+    margin-top: 10px;
+    border: none;
+    margin-right: 180px;
+}
+.opt-home h2{
+    margin-left: 10px;
+}
+
+.opt-home-search{
+    margin-top: 10px;
+    border: none;
+    margin-right: 170px;
+}
+.opt-home-search h2{
+    margin-left: 10px;
+
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left{
+    border: 5px solid #312c2c;;
+    width: 20vw;
+    height: 100vh;
+}
+
+.right{
+    width: 80vw;
+    height: 100vh;
+    position: relative;
+}
+.info{
+    display: flex;
+    margin-top: 10px;
+    border: none;
+    margin-left:1px ;
+    margin-right: 1px;
+}
+.plus{
+    border: none;
+    margin-top: 1px;
+    margin-right: 20px;
+}
+
+.info h2{
+    margin-left: 10px;
+    border: none;
+}
+
+.songList{
+    border: none;
+    margin-top: 10px;
+    display: flex;
+    /* margin-left: 42px; */
+}
+
+.songList ul li{
+    border: 2px solid rgba(69, 65, 90,0.5);
+    border-radius: 5px;
+    list-style: none;
+    padding: 6px;
+    display: flex;
+    justify-content: space-between;
+    transition:  0.5s C;
+}
+.songList ul li:hover{
+    border: 4px solid rgb(69, 65, 90);
+    transition: 0.5s ease; 
+    cursor: pointer;
+
+}
+.songList ul{
+    margin-top: 10px;
+    left: 0px;
+    width: 100%;
+    
+}
+.ui{
+    margin-right: 450px;
+}
+.songList ul li i{
+    margin-top: 4px;
+    margin-right: 10px;
+}
+
+.songname{
+    border: none;
+    margin-right: 120px;
+    font-size: 15px;
+}
+/* header-right */
+
+.dis-flex{
+    display: flex;
+    justify-content:space-between;
+}
+
+.arrows i{
+    margin-top:20px;
+    margin-left: 10px;
+}
+
+.sign-log button{
+    margin: 10px 10px 10px;
+    padding: 5px;
+}
+
+
+.hamburger{
+    display: none;
+}
+.LI{
+    color: #201D20;
+    width: 130px;
+    border-radius: 40px;
+    background-color: aliceblue;
+    opacity: 0.9;
+    transition: opacity  0.3s;
+}
+.LI:hover{
+    transition: 1s;
+    color: black;
+    font-weight: bold;
+    background-color: white;
+    width: 150px;
+    opacity: 1;
+
+}
+
+.SU{
+    transition: 1s;
+    width: 120px;
+   border-radius: 40px; 
+}
+
+.SU:hover{
+    transition: 1s;
+    color: black;
+    font-weight: bold;
+    background-color: white;
+    width: 150px;
+}
+
+.playlist h2{
+    margin-left: 10px;
+}
+
+.cardContainer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card img{
+    margin-left: 8px;
+    width: 180px;
+    height: 180px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card h3{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    
+    margin-top: 20px;
+    margin-left: 10px;
+    width:13vw ;
+    padding-top: 10px;
+}
+
+.card p {
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+}
+
+.card:hover{
+    border: 3px solid #313131;
+    border-radius: 20px;
+}
+
+.playbtn {
+    position: relative;
+}
+
+.playbtn i {
+    position: absolute;
+    bottom: 10px;
+    right: 13px;
+    font-size: 30px; /* Increase the size of the play button */
+    color: white;
+    background-color: #28a745; /* Green color */
+    border-radius: 50%;
+    transform: translateY(20px); /* Initial position below the view */
+    transition: transform 0.3s ease, opacity 0.3s ease; /* Transition properties */
+    opacity: 0; /* Initial opacity */
+}
+
+.card:hover .playbtn i {
+    transform: translateY(0); /* Move into view */
+    opacity: 1; /* Make visible */
+}
+
+.playbar{
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    width: 75%;
+    height: 40px;
+    bottom: 0;
+    border: 4px solid rgb(85, 80, 80);
+    padding: 12px;
+    border-radius: 20px;
+}
+
+.volbar{
+    display: flex;
+    border: none;
+}
+
+.volbar:hover{
+    transition: ease-in-out 1s;
+    border: 2px solid #313131;
+}
+.vol-seekbar{
+    border: 2px solid aqua;
+    background-color: aqua;
+    height: 3px;
+    margin-left: 20px;
+    margin-right: 30px;
+    margin-top: 8px;
+    width: 100px;
+    z-index: 1;
+}
+.circle-vol{
+    position: relative;
+    bottom: 6px;
+    height: 8px;
+    width: 8px;
+    left: 100%;
+    transition: left 0.3s;
+    background-color: #28a745;
+    border-radius: 50%;
+}
+
+.vol-seekbar:hover{
+    cursor: pointer;
+    
+}
+
+/* r2ewdsaxz */
+i{
+    border: none;
+    margin-left: 10px;
+}
+/* ewdscxz */
+
+.seekbar{
+    border: 3px solid brown;
+    width: 100%;
+    height: 1px;
+    border-radius: 10px;
+    /* height: 1px; */
+}
+
+.seekbar:hover{
+    cursor: pointer;
+}
+.circle{
+    position: relative;
+    bottom: 8px;
+    height: 10px;
+    left: 0%;
+    transition: left 0.3s;
+    width: 10px;
+    background-color: #28a745;
+    border-radius: 50%;
+}
+
+.songsbutton i{
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.songinfo{
+    border: none;
+    font-size: 18px;
+    margin-left: auto;
+}
+
+.songtime{
+    border: none;
+    margin-bottom: auto;
+    font-size: 12px;
+}
+
+@media (max-width:1400px){
+    .left{
+        background-color:red;
+        position: absolute;
+        left: -100%;
+        transition: all 0.3s;
+        z-index: 1;
+    }
+
+    .right{
+        width: 100vw;
+        .hamburger{
+            display: inline;
+        }
+    }
+
+    .playbar{
+        width: 95vw;
+    }
+}
