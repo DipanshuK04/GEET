@@ -14,7 +14,7 @@ GEET is a meticulously crafted musical website, built with a deep passion for bo
 
 1. **Clone the GEET Repository**: Start by cloning the GEET repository to your local machine. This will give you access to all the code and files necessary to run the website.
 2. **Add Your Songs**: Navigate to the Sons_tp folder within the cloned repository. Add the songs of your choice to this folder. These songs will be used by the website as your personal playlist.
-3. **Run Locally**: Open the index.html file in your favorite web browser to start GEET on your local host. Enjoy the music from playlists made up of the songs you've added, all without any ads or interruptions.
+3. **Run Locally**: Open the geet_html.html file in your favorite web browser to start GEET on your local host. Enjoy the music from playlists made up of the songs you've added, all without any ads or interruptions.
 
 4. **Customize**: Feel free to modify the HTML, CSS, or JavaScript files to further personalize your music player. You can add more songs, change the design, or even enhance the functionality as you see fit.
 
